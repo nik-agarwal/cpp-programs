@@ -14,10 +14,10 @@
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-        vector<int>temp(nums.size());
+        vector<int>temp(nums.size()); // define new vector array 
         for(int i=0; i<nums.size();++i){
-            temp[(i+k)%nums.size()]=nums[i];
+            temp[(i+k)%nums.size()]=nums[i];   // i+k is for rotate an elemn=ent by k steps
         }
-        nums = temp;
+        nums = temp;     //  values of nums are updated with the values of temp  
     }
 };
