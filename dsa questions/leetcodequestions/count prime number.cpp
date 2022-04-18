@@ -8,7 +8,7 @@ public:
         prime[0]=prime[1]=false;
         for(int i=2;i<n;++i){
             if(prime[i]){
-                count++;
+                count++; // count the prime numbers between 2 to n
             for(int j= 2*i;j<n;j=j+i) // becomes 0 all multiple of j
                 prime[j]=0;
             }      
