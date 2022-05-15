@@ -1,3 +1,5 @@
+// sort the array using bubble sort and recursion
+
 #include<bits/stdc++.h>
 using namespace std;
 
