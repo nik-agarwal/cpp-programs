@@ -1,4 +1,6 @@
 // sort the array using bubble sort and recursion
+// In this , after the  first iterate, the largest value in the array is  at the last position. 
+// so, after ith iterate , till ith array, array is sorted form last.
 
 #include<bits/stdc++.h>
 using namespace std;
