@@ -1,4 +1,6 @@
 // insertion sort using Recursion
+// ex - 1,2,1,4,3
+// after sort - 1,1,2,3,4
 
 #include<bits/stdc++.h>
 using namespace std;
