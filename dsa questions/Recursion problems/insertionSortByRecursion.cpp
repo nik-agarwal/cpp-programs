@@ -1,7 +1,7 @@
 // insertion sort using Recursion
 // it does not affect the code means no increse or decrease in complexity using recursion
-// ex - 1,2,1,4,3
-// after sort - 1,1,2,3,4
+// ex - 1,2,1,4,3,6,9,3
+// after sort - 1,1,2,3,3,4,6,9
 
 #include<bits/stdc++.h>
 using namespace std;
