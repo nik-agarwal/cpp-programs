@@ -3,6 +3,8 @@
 // Let the linked list be 1→0→2→1→2. 
 // The sorted linked list for the given linked list will be 0→1→1→2→2.
 
+// Method 1 (change the value of the node)
+
 // ans is:-
 
 /********************************
